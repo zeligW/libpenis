@@ -27,6 +27,8 @@ B==D    -- True
 *Note:* malformed penis is not allowed, thus the following won't compare:
 ```hs
 B==B    -- False
+D==D    -- False
+D==B    -- False
 ```
 
 ## Building and Testing
