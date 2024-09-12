@@ -1,6 +1,12 @@
 # libpenis
 Comparing variables was never been that easy and clear like using libpenis.
-Now with purely functional flavor.
+Now with a purely functional flavor.
+
+libpenis is originally written in C by todashuta:
+[todashuta/libpenis](https://github.com/todashuta/libpenis)
+
+Other implementations:
+ - [Rust crate by MrEnder0](https://crates.io/crates/libpenis)
 
 ## Usage
 Libpenis exports a core `Penis` data type with an `Eq` instance to ensure
