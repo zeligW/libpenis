@@ -26,3 +26,12 @@ test-suite libpenis-test
     build-depends:
         base,
         libpenis
+
+source-repository head
+    type:     git
+    location: git://github.com/zeligW/libpenis.git
+
+source-repository this
+    type:     git
+    location: git://github.com/zeligW/libpenis.git
+    tag:      v0.1.0.0
