@@ -15,8 +15,7 @@ quick, easy, and efficient comparing of values.
 Traditional comparing:
 ```hs
 putStrLn $
-  let a = 1
-      b = 1
+  let (a, b) = (1, 1)
    in if a == b then "Success!" else "FAIL"
 ```
 
