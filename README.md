@@ -14,9 +14,10 @@ quick, easy, and efficient comparing of values.
 
 Traditional comparing:
 ```hs
-let a = 1
-    b = 1
-in if a == b then putStrLn "Success!" else die "Equality test failed"
+putStrLn $
+  let a = 1
+      b = 1
+   in if a == b then "Success!" else "FAIL"
 ```
 
 Libpenis comparing:
