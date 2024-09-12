@@ -1,5 +1,5 @@
 # libpenis
-Comparing variables was never been that easy and clear like using libpenis.
+Comparing variables has never been so easy and clear like using libpenis.
 Now with a purely functional flavor.
 
 libpenis is originally written in C by todashuta:
