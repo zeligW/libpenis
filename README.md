@@ -44,8 +44,9 @@ Libpenis is intended to be imported unqualified (`import Penis` or
 `import Penis (Penis (..))`). It exports type constructors `B` and `D`, so make
 sure these identifiers are not already in your namespace.
 
-The `Eq` instance is not an equivalence relation as it lacks reflexivity. This
-is by design to enforce that malformed penis does not result in a truth value.
+The `Eq` instance is not an equivalence relation as it lacks reflexivity and
+symmetry. This is by design to enforce that malformed penis does not result in
+a truth value.
 
 ## Cabal
 The project uses Cabal build system and is compatible with Hackage, including

@@ -13,8 +13,9 @@ data Penis
   = B   -- ^ Balls
   | D   -- ^ Dickhead
 
--- | Note that "Eq" instance of "Penis" does not satisfy reflexivity. This is
--- by design to ensure malformed penis does not result in a truth value.
+-- | Note that "Eq" instance of "Penis" does not satisfy reflexivity or
+-- symmetry. This is by design to ensure malformed penis does not result in a
+-- truth value.
 --
 -- >>> B==D
 -- True
